@@ -1,30 +1,33 @@
 header {
-    display: grid;
+   position: relative;
     background-color: rgb(244, 244, 244);
-    position: absolute;
+    position: relative;
     top: 0px;
-    left: 8px;
-    padding-bottom: 1px;
-    width: 100%;
-    height: 60px;
+    left: 0px;
+    width: 100vw;
+    max-height: 100px;
     z-index: 50;
+   
 }
 
 .internal-nav {
+    display: inline;
     line-height: 14px;
-    word-spacing: 15px;
-    letter-spacing: 1.5px;
-    position: relative;
-    top: 24px;
-    right: 65px;
+    word-spacing: 8px;
+    letter-spacing: 1.4px;
+    position: absolute;
+    top: 16px;
+    left: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 600;
-    width: 50%;
-    padding-left: 55px;
-    text-align: center;
-    
+    width: 100vw;
+    height: 40px;
+    padding-left: 137px;
+    text-align: left;
+    background-color: #fff;
+    margin-left: 0px;
 }
 .internal-nav a:link {
     color: rgb(68, 68, 68);
@@ -58,15 +61,18 @@ word-spacing: none;
 }
 
 .external-nav {
+    display:inline;
     position: absolute;
-    top:10px;
-    right: 152px;
+    top:15px;
+    right: 0px;
+    padding-right: 145px;
+    padding-bottom: 0px;
     line-height: 14px;
     word-spacing: 8px;
     letter-spacing: 1px;
-    position: relative;
-    width: 100%;
+    width: 100vw;
     text-align: right;
+    background-color: transparent;
 }
 
 .external-nav img {
@@ -76,16 +82,16 @@ word-spacing: none;
 
 .mini-nav {
     line-height: 14px;
-    word-spacing: 7px; 
+    word-spacing: 8px; 
     position: relative;
-    right: 25px;
-    top: 2px;
+    left: 15px;
     bottom: 1px;
     text-align: right;
     width: 100%;
 }
+
 .mini-nav a:link {
-    border: 1px solid transparent;
+    border: 1px solid rgb(211, 211, 211, 0.1);
     border-radius: 50%;
     padding-top: 5px;
     padding-left: 4px;
@@ -95,7 +101,7 @@ word-spacing: none;
 }
 
 .mini-nav a:hover {
-    border: 1px solid rgb(127, 125, 125);
+    border: 1px solid rgb(127, 125, 125, 0.5);
     border-radius: 50%;
 }
 .mini-nav img {
@@ -108,7 +114,7 @@ a:link {
 }
 
 body {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(255, 255, 255);
     font-size: 14px;
     font-family:  'Gill Sans MT', Calibri, sans-serif;
 
@@ -133,7 +139,7 @@ body {
 .contributer-left {
     position: relative;
     top: 10px;
-    left: 41px;
+    left: 0px;
     font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -163,8 +169,8 @@ p {
 }
 .bio-media-links-right {
     position: absolute;
-    top: 475px;
-    left: 125px;
+    top: 477px;
+    left: 75px;
 }
 
 #side-nav a:link {
@@ -200,13 +206,21 @@ p {
 
 .mini-footer {
     padding-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     border-top: 1px solid grey;
+
 }
 
 h3, h2 {
     text-transform: uppercase;
     text-align: center;
+
 }
+h5 {
+    font-size: 14px;
+}
+
 h3 {
    color: rgb(208, 76, 14);
     padding-top: 13px;
@@ -230,6 +244,7 @@ h2 {
     position: relative; 
     left: 0px;
     top: 52.28px;
+    width: 100vw;
     padding-left: 142px;
     padding-right: 112px;
     padding-top: 51.5px;
@@ -277,13 +292,11 @@ h2 {
 }
 
 .grid-main-4 {
- 
     display: grid;
     grid-column-start: 1;
     grid-column-end: span 2;
     grid-row-start: 4;
     margin-top: 26px;
-    max-height: 920px;
     box-shadow: 0px 2px 2px 1px rgb(0, 0, 0, 0.2);
 
 }
@@ -351,7 +364,9 @@ h2 {
     border-radius: 50%;
     object-fit: cover;
 }
-
+img {
+    object-fit: cover;
+}
 .img-main {
     top: 0px;
     width: 750px;
@@ -389,6 +404,21 @@ img {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+h6 {
+    position: relative;
+    top: 131px;
+    left: 30px;
+    font-size: 11.5px;
+    text-transform: uppercase;
+}
+.side-text {
+    position: relative;
+    top: 85px;
+    right: 8px;
+    font-style: italic;
+    font-size: 13.5px;
+}
+
 
 .post-1 img {
     width: 300px;
@@ -431,16 +461,43 @@ img {
 }
 
 #Latest-Posts {
-    position: relative;
-    top: 10px;
-    left: 80px;
-    width: 103px;
+    position: absolute;
+    top: 6px;
+    left: 128px;
     height: 77px;
-    top: 10px;
-    display: grid;
-    grid-column-start: 1;
-    grid-row-start: 1;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: inline;
+    
 }
+
+ .latest-1 {
+    position: absolute;
+    top: 83px;
+    left: 140px;
+
+}
+.latest-2 {
+    position: absolute;
+    top: 190px;
+    left: 140px;
+}
+.latest-3 {
+    position: absolute;
+    top: 297px;
+    left: 140px;
+}
+.latest-4 {
+    position: absolute;
+    top: 403px;
+    left: 140px;
+}
+/*
+.latest-background-element {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}*/
 
 #doggo {
     position: absolute;
@@ -451,6 +508,7 @@ img {
     height: 77px;
     top: 173px;
     left: 30px;
+    
 }
 
 #river-cabin {
@@ -474,6 +532,80 @@ img {
         top: 387px;
         left: 30px;
 
+}
+
+.Instagram-Feed {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    font-size: 18px;
+    display: grid;
+    text-transform: uppercase;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.fox {
+    position: absolute;
+    top: 83px;
+    padding-left: 31px;
+    width: 143px;
+    height: 143px;
+    display: grid;
+    grid-column-start: 1;
+}
+
+.painting {
+    position: relative;
+    top: 83px;
+    padding-right:21px;
+    left: 2px;
+    width: 143px;
+    height: 143px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    display: grid;
+   
+}
+.forest {
+    position: relative;
+    top: 240px;
+    padding-left: 31px;
+    width: 143px;
+    height: 143px;
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.alley {
+    position: relative;
+    top: 240px;
+    padding-right:21px;
+
+    width: 143px;
+    height: 143px;
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.dog {
+    position: relative;
+    top: 107px;
+    padding-left: 31px;
+    width: 143px;
+    height: 143px;
+    display: grid;
+    grid-column-start: 1;
+}
+.sidewalk {
+    position: relative;
+    top: 107px;
+    padding-right:20px;
+    width: 143px;
+    height: 143px;
+    display: grid;
+    grid-column-start: 2;
 }
 
 
