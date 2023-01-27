@@ -8,8 +8,16 @@ header {
     width: 100vw;
     max-height: 100px;
     z-index: 50;
-  
+    
 }
+@media only screen and (max-width: 600px) {
+    .external-nav {
+      display: none;
+    }
+    .internal-nav a:link {
+        display: none;
+      }
+  }
 
 .internal-nav {
     display: inline;
@@ -23,12 +31,13 @@ header {
     font-size: 11px;
     font-weight: 600;
     width: 100vw;
-    height: 38px;
+    height: 36px;
     padding-left: 147px;
     padding-top: 16px;
     text-align: left;
     background-color: #fff;
     margin-left: 0px;
+    border: 1px solid lightgrey;
 }
 .internal-nav a:link {
     color: rgb(68, 68, 68);
@@ -152,6 +161,13 @@ body {
      margin: 0;
     font-family: "Lato", "Oswald", "Playfair+Display";
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
 html {
     height: 100%;
 }
@@ -174,6 +190,23 @@ html {
     padding-right: 3px;
     font-size: 13px;
 }
+@media only screen and (max-width: 600px) {
+    .click-me-1 {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+      padding-top: 0;
+      
+      position: absolute;
+      top: 380px;
+      left: 150px;
+      padding-bottom: 11px;
+    margin-bottom: 23px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+  }
+  
 
 .click-me-2 {
     color: rgb(208, 76, 14);
@@ -193,6 +226,22 @@ html {
     padding-right: 3px;
     font-size: 13px;
 }
+@media only screen and (max-width: 600px) {
+    .click-me-2 {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+      padding-top: 0;
+      
+      position: absolute;
+      top: 451px;
+      left: 149px;
+      padding-bottom: 11px;
+    margin-bottom: 23px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+  }
 
 .click-me-3 {
     color: rgb(208, 76, 14);
@@ -212,6 +261,21 @@ html {
     padding-right: 3px;
     font-size: 13px;
 }
+@media only screen and (max-width: 600px) {
+    .click-me-3 {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+      position: absolute;
+      top: 351px;
+      left: 149px;
+      padding-bottom: 11px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+  }
 
 .click-me-4 {
     color: rgb(208, 76, 14);
@@ -231,6 +295,22 @@ html {
     padding-right: 3px;
     font-size: 13px;
 }
+@media only screen and (max-width: 600px) {
+    .click-me-4 {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+      padding-top: 0;
+      
+      position: absolute;
+      top: 380px;
+      left: 150px;
+      padding-bottom: 11px;
+    margin-bottom: 23px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    }
+  }
 
 
 .contributer-left {
@@ -345,6 +425,18 @@ p {
     border-top: 1px solid grey;
 }
 
+@media only screen and (max-width: 600px) {
+    .mini-footer {
+        position: absolute;
+        top: 440px;
+        /*top: 510px;*/
+        width: 390px;
+        padding-top: 0px;
+    }
+  }
+
+
+
 h3, h2 {
     text-transform: uppercase;
     text-align: center;
@@ -362,6 +454,15 @@ h5 {
      letter-spacing: 0.4px;
  }
 
+ @media only screen and (max-width: 600px) {
+    #header-one {
+      max-width: 470px;
+      padding-top: 55px;
+  
+      position: relative;
+    }
+  }
+
 #header-two {
    color: rgb(208, 76, 14);
     padding-top: 19px;
@@ -370,6 +471,16 @@ h5 {
      font-size: 12px;
     letter-spacing: 0.4px;
 }
+
+@media only screen and (max-width: 600px) {
+    #header-two {
+      max-width: 470px;
+      padding-top: 103px;
+  
+      position: relative;
+    }
+  }
+
 #header-three {
     color: rgb(208, 76, 14);
      padding-top: 21px;
@@ -400,6 +511,16 @@ h2 {
     line-height: 25px;
     padding-bottom: 1px;
     }
+    @media only screen and (max-width: 600px) {
+        h2 {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+          padding-top: 0;
+          bottom: 5px;
+          position: relative;
+        }
+      }
+      
 
 .grid-container {
     margin: auto;
@@ -417,6 +538,18 @@ h2 {
     grid-template-columns: repeat(4, 360px); 
     grid-template-rows: repeat(6, 925px); 
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-main {
+       display: inline-block;
+       right: 135px;
+       width: 470px;
+       height: 815px;
+       background-color: blue;
+       
+    }
+  }
+
 
 .grid-main {
     position: relative;
@@ -447,17 +580,36 @@ h2 {
     left: 0px;
     border: 1px solid rgb(212, 210, 210, 0.5);
 }
+@media only screen and (max-width: 600px) {
+    .grid-main-2 {
+       position: relative;
+       display: inline-block;
+       left: -133px;
+       width: 470px;
+       height: 835px;
+       margin-top: -105px;
+    }
+  }
 
 .img-main-2  {
     width: 750px;
     height: 501px;
-    
+    opacity: 1;
 }
-
+@media only screen and (max-width: 600px) {
+    .img-main-2 {
+    width: 470px;
+    height: 295px;
+       margin-top: -2px;
+  
+       padding-bottom: 100px;
+    }
+  }
+ 
 
 .grid-main-3 {
     background-color: rgb(255, 255, 255);
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     margin-top: 1px;
     display: grid;
     grid-column-start: 1;
@@ -470,10 +622,31 @@ h2 {
     border: 1px solid rgb(212, 210, 210, 0.5);
 }
 
+@media only screen and (max-width: 600px) {
+    .grid-main-3 {
+       position: relative;
+       display: inline-block;
+       left: -133px;
+       width: 470px;
+       height: 835px;
+       margin-top: -190px;
+       padding-bottom: 25px;
+    }
+  }
+
 .img-main-3 {
     width: 750px;
     height: 500px;
+    opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+    .img-main-3 {
+    max-width: 470.5px;
+    max-height: 315px;
+       padding-bottom: 100px;
+    }
+  }
 
 .grid-main-4 {
     background-color: #fff;
@@ -486,6 +659,29 @@ h2 {
     margin-top: 45px;
     border: 1px solid rgb(212, 210, 210, 0.5);
 }
+@media only screen and (max-width: 600px) {
+    .grid-main-4 {
+       position: relative;
+       display: inline-block;
+       left: -133px;
+       width: 470px;
+       height: 812px;
+       margin-top: -233px;
+       margin-bottom: 15px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .img-main-4 {
+    max-width: 470.5px;
+    max-height: 315px;
+    opacity: 1;
+    }
+  }
+
+  img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
 
 .click-next {
     position: relative;
@@ -517,6 +713,13 @@ h2 {
     color: rgb(245, 242, 242);
     font-size: 16px;
 }
+@media only screen and (max-width: 600px) {
+    .number-button-1 {
+        position: absolute;
+        top: -360px;
+        left: -133px;
+    }
+  }
 
 .number-button-2 {
     font-size: 16px;
@@ -531,6 +734,14 @@ h2 {
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
     color: rgb(34, 34, 34);
 }
+
+@media only screen and (max-width: 600px) {
+    .number-button-2 {
+        position: absolute;
+        top: -360px;
+        left: -94px;
+    }
+  }
 .number-button-3 {
     font-size: 16px;
     background-color: #fff;
@@ -544,6 +755,13 @@ h2 {
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
     color: rgb(34, 34, 34);
 }
+@media only screen and (max-width: 600px) {
+    .number-button-3 {
+        position: absolute;
+        top: -360px;
+        left: -54px;
+    }
+  }
 .number-button-4 {
     font-size: 16px;
     background-color: #fff;
@@ -557,6 +775,13 @@ h2 {
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
     color: rgb(34, 34, 34);
 }
+@media only screen and (max-width: 600px) {
+    .number-button-4 {
+        position: absolute;
+        top: -360px;
+        left: -14px;
+    }
+  }
 
 .number-button-5 {
     font-size: 16px;
@@ -572,7 +797,13 @@ h2 {
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
     color: rgb(34, 34, 34);
 }
-
+@media only screen and (max-width: 600px) {
+    .number-button-5 {
+        position: absolute;
+        top: -360px;
+        left: 26px;
+    }
+  }
 
 
 .grid-side-top {
@@ -583,9 +814,22 @@ h2 {
     grid-row-start: 1;
     height: 545px;
     width: 360px;
-   
 
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-side-top {
+        display: grid;
+        grid-column-start: 1;
+        grid-row-start: 5;
+        position: absolute;
+        top: -245px;
+        left: -134px;
+        width: 77%;
+        height: 465px;
+        padding-bottom: 38px;
+    }
+  }
 
 .grid-side-middle-1 {
     position: relative;
@@ -599,6 +843,19 @@ h2 {
     
 
 }
+
+@media only screen and (max-width: 600px) {
+    .grid-side-middle-1 {
+        display: grid;
+        grid-column-start: 1;
+        grid-row-start: 6;
+        top: -668px;
+        left: -134px;
+        min-width: 470px;
+        height: 465px;
+        padding-bottom: 38px;
+    }
+  }
 .grid-side-middle-2 {
     position: relative;
     top: 644px;
@@ -627,8 +884,16 @@ h2 {
 .text-main {
     padding-top: 12px;
     height: 430px;
-   
 }
+
+@media only screen and (max-width: 600px) {
+    .text-main {
+    padding-top: 1px;
+      position: relative;
+      bottom: 70px;
+    }
+  }
+  
 
 #text-main-four {
     padding-top:2px;
@@ -638,7 +903,15 @@ h2 {
     border: 7px solid white;
     border-radius: 50%;
     object-fit: cover;
+    opacity: 1;
 }
+@media only screen and (max-width: 600px) {
+    .profile-pic img {
+        position: absolute;
+        top: 10px;
+        left: 55px;
+    }
+  }
 img {
     object-fit: cover;
 }
@@ -647,7 +920,17 @@ img {
     width: 750px;
     height: 472.91px;
     padding-bottom: 0px;
+    opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+    .img-main {
+      max-width: 470px;
+      max-height: 295px;
+     margin-top: -2px;
+     padding-bottom: 2px;
+    }
+  }
 
 img {
     height: 100%;
@@ -656,14 +939,24 @@ img {
     max-width: 800px;
 }
 
+
 .img-side {
+   
     position: absolute;
-    background-color: palevioletred;
+
     grid-column-start: 4;
     grid-row-start: 2;
     height: 33.5%;
     width: 360px;
 }
+
+@media only screen and (max-width: 600px) {
+    .img-side {
+    width: 470px;
+    height: 240px;
+
+    }
+  }
 .img-side .profile-pic {
     position: absolute;
     left: 82px;
@@ -714,6 +1007,14 @@ top: 80px;
     top: 125px;
     left: 29px;
 }
+
+@media only screen and (max-width: 600px) {
+    .llama {
+        top: 30px;
+        width: 90%;
+
+    }
+  }
 
 .post-1 img {
     width: 300px;
@@ -768,7 +1069,6 @@ top: 80px;
     font-size: 18px;
     font-family: "Oswald";
     letter-spacing: 1px;
-    
 }
 
  .latest-1 {
