@@ -1,13 +1,14 @@
+
 header {
    position: relative;
     background-color: rgb(255, 255, 255);
-    position: relative;
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 100vw;
     max-height: 100px;
     z-index: 50;
-   
+  
 }
 
 .internal-nav {
@@ -17,13 +18,13 @@ header {
     letter-spacing: 1.0px;
     position: absolute;
     top: 0px;
-    left: 9px;
+    left: 0px;
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 600;
     width: 100vw;
     height: 38px;
-    padding-left: 137px;
+    padding-left: 147px;
     padding-top: 16px;
     text-align: left;
     background-color: #fff;
@@ -47,8 +48,22 @@ header {
     letter-spacing: 1px;
 }
 
-.click-me:hover {
-   
+.click-me-1:hover {
+    cursor: pointer;
+    background-color: #ffcd6f;
+}
+
+.click-me-2:hover {
+    cursor: pointer;
+    background-color: #ffcd6f;
+}
+
+.click-me-3:hover {
+    cursor: pointer;
+    background-color: #ffcd6f;
+}
+
+.click-me-4:hover {
     cursor: pointer;
     background-color: #ffcd6f;
 }
@@ -62,18 +77,26 @@ word-spacing: none;
 }
 
 .external-nav {
-  
+    color:rgb(190, 190, 190);
     position: absolute;
     top:15px;
-    right: 150px;
-    padding-right: 0px;
+    right: 130px;
+    padding-right: 15px;
+    padding-left: 5px;
     padding-bottom: 0px;
     line-height: 8px;
-    word-spacing: 9px;
-    letter-spacing: 1.5px;
-   
+    word-spacing: 3px;
+    letter-spacing: 5.5px;
     text-align: right;
     background-color: transparent;
+    font-size: 12.5px;
+}
+
+.external-nav a:link, a:visited {
+    color:rgb(150, 150, 150);
+}
+.external-nav a:hover {
+    color: rgb(190, 190, 190);
 }
 
 .external-nav img {
@@ -83,28 +106,33 @@ word-spacing: none;
 
 .mini-nav {
     line-height: 14px;
-    word-spacing: 8px; 
+    word-spacing: 1.4px; 
     position: relative;
-    left: 15px;
-    bottom: 1px;
+    left: 5px;
+    top: 3px;
     text-align: right;
     width: 100%;
-
+    font-size: 16.5px;
 }
 
 .mini-nav a:link {
-    border: 1px solid rgb(211, 211, 211, 0.1);
+    border: 1px solid transparent;
     border-radius: 50%;
     padding-top: 5px;
     padding-left: 4px;
-    padding-right: 4px;
+    padding-right: 4.5px;
     padding-bottom: 0px;
-    opacity: 0.3;
+    color:rgb(200, 200, 200);
+}
+
+.mini-nav a:visited {
+    color:rgb(200, 200, 200);
 }
 
 .mini-nav a:hover {
-    border: 1px solid rgb(127, 125, 125, 0.5);
+    border: 1px solid transparent;
     border-radius: 50%;
+    color:rgb(208, 208, 208, 0.5);
 }
 .mini-nav img {
     width: 15px;
@@ -128,27 +156,86 @@ html {
     height: 100%;
 }
 
-.click-me {
+.click-me-1 {
     color: rgb(208, 76, 14);
     background-color: transparent;
     border: 1px solid rgb(208, 76, 14);
     width: 172px;
-    height: 40px;
+    top: 2px;
     text-transform: uppercase;
-    top: 1px;
     position: relative;
-    left: 288px;
+    left: 289px;
     text-align: center;
-    margin-bottom: 23.5px;
-    padding-bottom: 2px;
+    letter-spacing: 0.2px;
+    padding-bottom: 11px;
+    margin-bottom: 23px;
+    padding-top: 10px;
     padding-left: 3px;
     padding-right: 3px;
+    font-size: 13px;
+}
+
+.click-me-2 {
+    color: rgb(208, 76, 14);
+    background-color: transparent;
+    border: 1px solid rgb(208, 76, 14);
+    width: 172px;
+    top: 2px;
+    text-transform: uppercase;
+    position: relative;
+    left: 289px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-bottom: 11px;
+    margin-bottom: 23px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+}
+
+.click-me-3 {
+    color: rgb(208, 76, 14);
+    background-color: transparent;
+    border: 1px solid rgb(208, 76, 14);
+    width: 172px;
+    bottom: 1px;
+    text-transform: uppercase;
+    position: relative;
+    left: 289px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-bottom: 11px;
+    margin-bottom: 21px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+}
+
+.click-me-4 {
+    color: rgb(208, 76, 14);
+    background-color: transparent;
+    border: 1px solid rgb(208, 76, 14);
+    width: 172px;
+    bottom: 0px;
+    text-transform: uppercase;
+    position: relative;
+    left: 289px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-bottom: 11px;
+    margin-bottom: 21px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
 }
 
 
 .contributer-left {
     position: relative;
-    top: 15px;
+    top: 18px;
     left: -1px;
     font-style: italic;
     letter-spacing: 0px;
@@ -169,7 +256,7 @@ p {
 .bio-name {
     position: absolute;
     top: 275px;
-    left: 126px;
+    left: 125px;
      font-stretch: condensed;
     letter-spacing: 1px;
     font-size: 18px;
@@ -185,8 +272,8 @@ p {
 }
 .bio-media-links-right {
     position: absolute;
-    top: 292px;
-    right: 93px;
+    top: 293px;
+    right: 94px;
     line-height: 14px;
     word-spacing: 5px; 
     position: relative;
@@ -221,20 +308,20 @@ p {
 }
 
 #side-nav a:link {
-    border: 1px solid rgb(104, 103, 103);
+    border: 1px solid rgb(220, 218, 218);
     border-radius: 50%;
    /* padding-top: 4px;
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 4px; */
-    background-color: rgb(236, 232, 225);
+    background-color: rgb(255, 255, 255);
     text-align: center;
     line-height: 14px;
     word-spacing: 0px; 
 }
 #side-nav a:hover {
-    background-color: rgb(249, 210, 138);
-    border-color: rgb(164, 60, 22);
+    background-color: rgb(251, 230, 190);
+    border-color: rgb(205, 112, 78);
 }
 
 .bio-text {
@@ -252,7 +339,7 @@ p {
 }
 
 .mini-footer {
-    padding-top: 3px;
+    padding-top: 2px;
     margin-left: 40px;
     margin-right: 40px;
     border-top: 1px solid grey;
@@ -269,7 +356,7 @@ h5 {
 
 #header-one {
     color: rgb(208, 76, 14);
-     padding-top: 16px;
+     padding-top: 17px;
      padding-right: 2px;
       font-size: 12px;
      letter-spacing: 0.4px;
@@ -277,7 +364,7 @@ h5 {
 
 #header-two {
    color: rgb(208, 76, 14);
-    padding-top: 17px;
+    padding-top: 19px;
   
     padding-right: 1px;
      font-size: 12px;
@@ -286,15 +373,16 @@ h5 {
 #header-three {
     color: rgb(208, 76, 14);
      padding-top: 21px;
-     padding-right: 1px;
+     padding-right: 0px;
      padding-bottom: 1.5px;
       font-size: 12px;
      letter-spacing: 0.4px;
  }
  #header-four {
     color: rgb(208, 76, 14);
-     padding-top: 21px;
-     padding-right: 1px;
+     padding-top: 23px;
+     padding-right: 0px;
+     padding-left: 1px;
       font-size: 12px;
      letter-spacing: 0.4px;
  }
@@ -306,7 +394,8 @@ h2 {
     font-family: Oswald;
     letter-spacing: 1px;
     position: relative;
-    bottom: 6px;
+    left: 0px;
+    bottom: 7px;
     font-size: 24px;
     line-height: 25px;
     padding-bottom: 1px;
@@ -378,6 +467,7 @@ h2 {
     width: 750px;
     position: relative;
     top: 11px;
+    border: 1px solid rgb(212, 210, 210, 0.5);
 }
 
 .img-main-3 {
@@ -394,17 +484,17 @@ h2 {
     grid-column-end: span 2;
     grid-row-start: 4;
     margin-top: 45px;
-    
+    border: 1px solid rgb(212, 210, 210, 0.5);
 }
 
 .click-next {
     position: relative;
-    top: 23px;
+    top: 24px;
     display: grid;
     grid-column: 1;
     grid-column-end: span 2;
     width: 200px;
-    height: 40px;
+    height: 38px;
     font-size: 22px;
     letter-spacing: 1px;
 }
@@ -417,46 +507,51 @@ h2 {
 
 .number-button-1 {
     position: absolute;
-    top: 25px;
-    width: 33px;
-    height: 35px;
+    top: 26px;
+    left: 1px;
+    width: 32px;
+    height: 34px;
     border: 1px solid rgb(198, 55, 3);
     background-color: rgb(198, 55, 3);
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
     color: rgb(245, 242, 242);
+    font-size: 16px;
 }
 
 .number-button-2 {
+    font-size: 16px;
     background-color: #fff;
     position: absolute;
-    top: 25px;
+    top: 26px;
     left: 40px;
     width: 33px;
-    height: 35px;
+    height: 34px;
     border-radius: 0%;
     border: 1px solid #fff;
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
     color: rgb(34, 34, 34);
 }
 .number-button-3 {
+    font-size: 16px;
     background-color: #fff;
     position: absolute;
-    top: 25px;
+    top: 26px;
     left: 80px;
     width: 33px;
-    height: 35px;
+    height: 34px;
     border-radius: 0%;
     border: 1px solid #fff;
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
     color: rgb(34, 34, 34);
 }
 .number-button-4 {
+    font-size: 16px;
     background-color: #fff;
     position: absolute;
-    top: 25px;
+    top: 26px;
     left: 120px;
     width: 33px;
-    height: 35px;
+    height: 34px;
     border-radius: 0%;
     border: 1px solid #fff;
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
@@ -464,12 +559,14 @@ h2 {
 }
 
 .number-button-5 {
+    font-size: 16px;
     background-color: #fff;
     position: absolute;
-    top: 25px;
+   
+    top: 26px;
     left: 160px;
-    width: 33px;
-    height: 35px;
+    width: 39px;
+    height: 34px;
     border-radius: 0%;
     border: 1px solid #fff;
     box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.2);
