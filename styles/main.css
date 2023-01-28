@@ -359,17 +359,15 @@ p {
     position: relative;
     text-align: right;
 }
-@media screen and (min-width: 600px) {
+/*@media screen and (min-width: 600px) {
     .bio-media-links-right {
-        
     top: -273px;
     right: 94px;
     line-height: 14px;
     word-spacing: 5px; 
-    
     text-align: center;
     }
-  }
+  }*/
 
 
 .f {padding-bottom: 6px;
