@@ -7,6 +7,7 @@ header {
     max-height: 100px;
     z-index: 50;  
 }
+
 @media only screen and (max-width: 600px) {
     .external-nav {
       display: none;
@@ -15,17 +16,19 @@ header {
         display: none;
       }
   }
+
 .secretheader {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
   .secretheader {
     display: block;
     min-width: 100vw;
     background-color: #fff;
     height: 50px;
     margin-bottom: 50px;
+    }
 }
   .internal-nav {
     display: inline;
@@ -47,6 +50,7 @@ header {
     margin-left: 0px;
     border: 1px solid lightgrey;
 }
+
 .internal-nav a:link {
     color: rgb(68, 68, 68);
     padding-top: 5px;
@@ -55,11 +59,13 @@ header {
     padding-bottom: 0px;
     opacity: 0.9;
 }
+
 .internal-nav a:hover {
     color: rgb(247, 173, 75);
     opacity: 0.3;
     cursor: pointer;
 }
+
 .internal-nav .no-space {
     word-spacing: 0px;
     letter-spacing: 1px;
@@ -170,18 +176,21 @@ html {
     text-transform: uppercase;
     font-size: 13px;
 }
+
 @media only screen and (max-width: 600px) {
     #click-me-2 {
         margin-top: 16px;
         padding-top: 10px;
     }
   }
+
   @media only screen and (max-width: 600px) {
     #click-me-3 {
         margin-top: 16px;
         padding-top: 10px;
     }
   }
+
 @media only screen and (max-width: 600px) {
     .click-me {
     position: relative;
@@ -195,11 +204,11 @@ html {
 .click-me:hover {
     background-color: rgb(255, 209, 124);
 }
+
 .blog-preview {
     position: relative;
     top: -5px;
 }
-
 
 .contributer-left {
     font-style: italic;
@@ -209,10 +218,6 @@ html {
     text-align: left;
     padding-top: 16px;
 }
-@media only screen and (max-width: 600px) {
-    .contributer-left {
-    }
-  }
 
 p {
     padding-top: 0px;
@@ -223,6 +228,7 @@ p {
     font-size: 14.5px;
     margin-bottom: 14px;
 }
+
 .bio-name {
     margin-top: 105px;
     top: 0px;
@@ -235,16 +241,16 @@ p {
 
 @media only screen and (max-width: 600px) {
     .bio-name {
-        margin-top: 55px;
+        margin-top: 49px;
     }
   }
+
 .media-links-right {
     position: relative;
     right: -3px;
     top: -12px;
     font-size: 16px;
 }
-
 
 .bio-media-links-right {
     position: relative;
@@ -253,6 +259,7 @@ p {
     line-height: 14px;
     word-spacing: 5px; 
 }
+
 @media only screen and (max-width: 600px) {
     .bio-media-links-right {
         margin-left: 55px;
@@ -295,6 +302,7 @@ p {
     line-height: 14px;
     word-spacing: 0px; 
 }
+
 #side-nav a:hover {
     background-color: rgb(251, 230, 190);
     border-color: rgb(205, 112, 78);
@@ -358,6 +366,7 @@ h3 {
         letter-spacing: 1px;
         margin-top: -178px;
     }
+
     #header-three {
         font-size: 10px;
     }
@@ -372,10 +381,7 @@ h3 {
     margin-top: 103px;
     position: relative;
 }
-@media only screen and (max-width: 600px) {
-    .grid-container {
-    }
-  }
+
 
 .side-flex-box {
     position: absolute;
@@ -396,6 +402,7 @@ h3 {
     display: flexbox;
     margin-bottom: 20px;
 }
+
 @media only screen and (max-width: 600px) {
     .grid-main {
         margin-left: 16px;
@@ -431,6 +438,7 @@ h3 {
     width: 750px;
     margin-top: 30px;
 }
+
 @media only screen and (max-width: 600px) {
     .grid-main-2 {
         margin-left: 16px;
@@ -462,6 +470,7 @@ h3 {
         width: 94vw;
     }
   }
+
 .img-main-3 {
     width: 750px;
     height: 500px;
@@ -483,6 +492,7 @@ h3 {
     margin-top: 48px;
     padding-bottom: 5px;
 }
+
 @media only screen and (max-width: 600px) {
     .grid-main-4 {
         margin-left: 16px;
@@ -491,6 +501,7 @@ h3 {
         width: 94vw;
     }
   }
+
   @media only screen and (max-width: 600px) {
     .img-main-4 {
         height: 42vh;
@@ -519,7 +530,6 @@ h3 {
         margin-top: 3px;
         margin-bottom: 2px;
         left: 15px;
-       
     }
   }
 
@@ -588,6 +598,7 @@ h3 {
     height: 545px;
     width: 360px;
 }
+
 @media only screen and (max-width: 600px) {
     .grid-side-top {
         margin-left: 15px;
@@ -653,11 +664,6 @@ h3 {
     height: 365px;
     background-color: rgb(255, 255, 255);
 }
-@media only screen and (max-width: 600px) {
-    .text-main {
-
-    }
-  }
 
 .profile-pic img {
     border: 7px solid white;
@@ -685,13 +691,14 @@ img {
     height: 33.5%;
     width: 360px;
 }
+
 @media only screen and (max-width: 600px) {
     .img-side {
         margin-top: 100px;
         height: 243px;
         width: 94vw;
     }
-    .profile-pic img{
+    .profile-pic img {
         position: absolute;
         top: 110px;
         left: 70px;
@@ -712,13 +719,22 @@ img {
     font-size: 18px;
    }
 
+@media only screen and (max-width: 600px) {
+    .side-bar-header {
+       top: 27px;
+       padding-left: 1px;
+       font-size: 19px;
+       margin-bottom: -4px;
+    }
+}
+
 h6 {
     font-size: 14px;
     text-transform: uppercase;
     font-family: "Oswald";
     letter-spacing: 0.9px;
     margin-top: -27px;
-    margin-left: 27px;
+    margin-left: 30px;
 }
 
 .side-text {
@@ -734,12 +750,12 @@ h6 {
     height: 200px;
     border-bottom: 1px solid grey;
     padding-top:  42px;
-    margin-left: -10px;
+    margin-left: -9px;
 }
 @media only screen and (max-width: 600px) {
     .post-1 img {
         width: 410px;
-        height: 275px;
+        height: 274px;
     }
   }
 .post-2 img {
@@ -769,9 +785,7 @@ h6 {
     }
   }
 
-.grid-side-middle-2 {
 
-}
 
 .grid-side-middle-2 img {
     width: 103px;
@@ -927,6 +941,7 @@ h6 {
     width: 144px;
     height: 144px;
 }
+
 @media only screen and (max-width: 600px) {
     .painting {
         width: 197px;
@@ -1001,11 +1016,7 @@ footer img {
     height: 180px;
 }
 
-@media only screen and (max-width: 600px) {
-    footer img{
-   
-    }
-  }
+
 
 
 footer {
