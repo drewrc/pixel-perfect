@@ -648,7 +648,7 @@ h3 {
 @media only screen and (max-width: 600px) {
     .grid-side-bottom {
         margin-left: 15px;
-        margin-top: 40px;
+        margin-top: 50px;
         min-width: 94vw;
         padding-bottom: 165px;
         margin-bottom: 100px;
@@ -741,7 +741,8 @@ h6 {
     font-style: oblique;
     letter-spacing: 0.2px;
     font-size: 13px;
-    margin-top: -25px;
+    margin-top: -26px;
+    margin-left: -10px;
     margin-bottom: 39px;
 }
 
@@ -768,7 +769,7 @@ h6 {
 @media only screen and (max-width: 600px) {
     .post-2 img {
         width: 410px;
-        height: 275px;
+        height: 272px;
     }
   }
 
@@ -913,14 +914,15 @@ h6 {
 @media only screen and (max-width: 600px) {
     .Instagram-Feed {
         text-align: center;
-        margin-top: 40px;
-        padding-top: 40px;
-        margin-bottom: -23px;
+        margin-top: -10px;
+        margin-left: 1px;
+        padding-top: 30px;
+        margin-bottom: -24px;
     }
   }
 
 .fox {
-    padding-left: 30px;
+    padding-left: 31px;
     padding-right: 10px;
     padding-bottom: 10px;
     width: 144px;
@@ -929,9 +931,9 @@ h6 {
 @media only screen and (max-width: 600px) {
     .fox {
         width: 197px;
-        height: 197px;
+        height: 196px;
         padding-right: 14px;
-        padding-bottom: 12px;
+        padding-bottom: 11px;
     }
   }
 
@@ -944,8 +946,9 @@ h6 {
 
 @media only screen and (max-width: 600px) {
     .painting {
+        padding-bottom: 12px;
         width: 197px;
-        height: 197px;
+        height: 196px;
         padding-right: 14px;
     }
   }
@@ -960,9 +963,11 @@ h6 {
 
 @media only screen and (max-width: 600px) {
     .forest {
-        width: 197px;
-        height: 197px;
+        padding-bottom: 15px;
+        width: 196px;
+        height: 196px;
         padding-right: 14px;
+   
     }
   }
 
@@ -972,17 +977,43 @@ h6 {
     width: 144px;
     height: 144px;
 }
+@media only screen and (max-width: 600px) {
+    .alley {
+        padding-bottom: 15px;
+        width: 197px;
+        height: 196px;
+        padding-right: 14px;
+    }
+  }
+
 .dog {
     padding-right: 10px;
     padding-left: 30px;
     width: 144px;
     height: 144px;
 }
+@media only screen and (max-width: 600px) {
+    .dog {
+        padding-bottom: 12px;
+        width: 197px;
+        height: 196px;
+        padding-right: 14px;
+    }
+  }
+
 .sidewalk {
     padding-right:19px;
     width: 144px;
     height: 144px;
 }
+@media only screen and (max-width: 600px) {
+    .sidewalk {
+        padding-bottom: 12px;
+        width: 197px;
+        height: 196px;
+        padding-right: 14px;
+    }
+  }
 
 .footer-border {
     display: flex;
