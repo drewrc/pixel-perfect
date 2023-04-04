@@ -118,10 +118,11 @@ transition: color 0.3s ease-in-out;
 }
 
 .fa-brands, .fa-solid {
+    margin-right: 4px;
+    margin-left: 4px;
     font-size: 95%;
-    margin-right: 10px;
     border-radius: 50%;
-    padding: 2%;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -359,15 +360,20 @@ footer {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    max-width: 100%;
-    z-index: 9000;
   }
 
+  .img-side {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .profile-pic {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    top: 60px;
   }
 
   .profile-pic img:hover {
@@ -410,8 +416,8 @@ footer {
 
 #side-nav {
     display: inline-block;
-    margin-left: 5%;
-    padding: 0;
+    font-size: 12px;
+    padding: 0;  
 }
 
 #side-nav a {
@@ -599,5 +605,101 @@ footer {
     .contributer-left {
         font-size: 12px;
     }
+    .profile-pic {
+      top: 160px;
+    }
+    #side-nav {
+      font-size: 22px;
+  }
+  .profile-pic img {
+    width: 250px;
+    height: 250px;
+
+ }
+  
+  }
+
+  @media screen and (min-width: 1000px) {
+    .profile-pic img {
+       width: 200px;
+       height: 200px;
+       top: 0px;
+    }
+    .profile-pic {
+      top: 100px;
+      /* margin-top: 202px;
+      margin-left: 120px; */
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .profile-pic img {
+       width: 220px;
+       height: 220px;
+       top: 0px;
+    }
+    .profile-pic {
+      top: 140px;
+      /* margin-top: 202px;
+      margin-left: 120px; */
+    }
+    #side-nav {
+      font-size: 15px;
+  }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .profile-pic img {
+       width: 240px;
+       height: 240px;
+       top: 0px;
+    }
+    .profile-pic {
+      top: 170px;
+      /* margin-top: 202px;
+      margin-left: 120px; */
+    }
+  }
+
+  @media screen and (min-width: 1500px) {
+    .profile-pic img {
+       width: 250px;
+       height: 250px;
+       top: 0px;
+    }
+    .profile-pic {
+      top: 160px;
+      /* margin-top: 202px;
+      margin-left: 120px; */
+    }
+    #side-nav {
+      font-size: 22px;
+  }
+  }
+
+  @media screen and (min-width: 1700px) {
+    .profile-pic img {
+       width: 275px;
+       height: 275px;
+       top: 0px;
+    }
+    .profile-pic {
+      top: 190px;
+      /* margin-top: 202px;
+      margin-left: 120px; */
+    }
   }
   
+  @media screen and (min-width: 1900px) {
+    .profile-pic img {
+       width: 350px;
+       height: 350px;
+       top: 0px;
+    }
+    .profile-pic {
+      top: 180px;
+      /* margin-top: 202px;
+      margin-left: 120px; */
+    }
+  
+  }
