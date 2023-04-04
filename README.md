@@ -1,30 +1,31 @@
-### Description
+# [Pixel Perfect]
 
-As a web developer, you will sometimes be tasked with creating an html page simply from an image file. In this assignment, you'll take the given image and turn it into a functioning website.
+Create a visually stunning and fully responsive webpage from an image file, using HTML and CSS. 
 
-### Deliverables
+## Table of Contents
 
-* A repo containing at least:
-  * `index.html`
-  * `assets/css/normalize.css`
-  * `assets/css/styles.css`
-  * `assets/images` 
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tech Stack](#tech-stack)
+- [Contributing](#contributing)
+- [License](#license)
 
-### Requirements
+## Description
 
-## I'm a Web Developer Mode
+As a web developer, you'll often be tasked with creating an HTML page from an image file. This project demonstrates the process of turning a given image into a fully functional and responsive website. The website is designed to be a pixel-perfect match to the provided desktop and mobile image views.
 
-* Create an webpage using html and css that is a pixel perfect match to the provided desktop image.
-* The menu items, images, and buttons need to have differing states based on a hover, and although not articulated in the provided image, they need to be styled.
-* Use [these fonts from Google Web
-  Fonts](https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i%7cOswald:300,400,500,600,700%7cPlayfair+Display:400,400i,700,700i)
-  in your implementation -- "Lato", "Oswald", and "Playfair+Display".
-* Use [the FontAwesome
-  icons](https://fontawesome.com/v5/cheatsheet) for image icons
-* Use [placeholder text of your choice](http://meettheipsums.com) for all copy
-* Use [placeholder images of your
-  choosing](http://www.hanselman.com/blog/TheInternetsBestPlaceholderImageSitesForWebDevelopment.aspx) for all images not provided
+## Features
 
-## Hey Mikey, I Think He Likes It Mode
+- Pixel-perfect implementation of the given desktop and mobile image views
+- Responsive design that adapts to various screen sizes and devices
+- Interactive menu items, images, and buttons with hover states
+- Integration of Google Web Fonts and FontAwesome icons
+- Use of placeholder text and images for content
 
-Adhere to the mobile image provided and make the website fully responsive.
+## Tech Stack 
+- HTML5
+- CSS3
+- Google Web Fonts
+- FontAwesome
